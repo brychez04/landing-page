@@ -1,0 +1,143 @@
+body > *{
+    font-family: Roboto;
+    padding: 24px 150px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color: #F9FAF8;    
+}
+
+.logo{
+    font-size: 24px;
+    font-weight:600;
+}
+
+.content1{
+    display:flex;
+    gap:24px;
+    background-color: rgb(255, 206, 0);
+    padding: 80px 150px;
+    color:black;
+}
+
+.img-placehold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-placehold img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    flex:50% 0 0;
+    gap:8px;
+}
+
+.hero{
+    font-size:80px;
+    font-weight: 900;
+}
+
+.hero-caption{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.content2{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    margin: 48px 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.icon{
+    padding:16px;
+}
+
+.iconimg{
+    border:5px solid rgb(255, 206, 0);
+    border-radius: 10px;
+    padding:24px;
+    width:130px;
+    height:130px;
+
+}
+
+.caption{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.quote{
+    background-color: rgb(255, 206, 0);
+    padding: 100px 250px;
+
+}
+
+.signup{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(255, 206, 0);
+    padding:48px;
+    border-radius:10px;
+    gap:48px;
+}
+
+ul{
+    display:flex;
+    gap:16px;
+    padding:0px;
+    margin:0px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button{
+    all: unset;
+    background-color: black;
+    color:white;
+    width:100px;
+    padding:16px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#quote-person{
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: bold;
+}
